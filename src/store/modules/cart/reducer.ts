@@ -6,7 +6,5 @@ const INITIAL_STATE: ICartState = {
 };
 
 export const cart: Reducer<ICartState> = () => {
-  return {
-    items: [],
-  };
+  return INITIAL_STATE;
 };
