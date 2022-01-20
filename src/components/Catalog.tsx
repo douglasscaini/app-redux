@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
+
 import { IProduct } from "../store/modules/cart/types";
 import { addProductToCart } from "../store/modules/cart/actions";
 
